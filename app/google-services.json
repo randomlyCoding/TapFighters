@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "35187130590",
+    "firebase_url": "https://tapfighters.firebaseio.com",
+    "project_id": "tapfighters",
+    "storage_bucket": "tapfighters.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:35187130590:android:235ed91855ce3bbb87424f",
+        "android_client_info": {
+          "package_name": "com.example.tapfighters"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "35187130590-qnlnn5hsa49l83q59j5p24j6948ciee8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tapfighters",
+            "certificate_hash": "4208ca9fe8af25cb0510fdaa6f9a0e37e8088581"
+          }
+        },
+        {
+          "client_id": "35187130590-jdgu13j5l35k9q644abk3f6esot2bg7l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdZa8yOgUTRJcwoR5hPyH-0leXdHvh5R8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "35187130590-jdgu13j5l35k9q644abk3f6esot2bg7l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

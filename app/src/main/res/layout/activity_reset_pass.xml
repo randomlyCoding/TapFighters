@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradle_background"
+    tools:context=".ResetPassActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40dp"
+        android:text="enter a valid email to reset"
+        android:layout_centerInParent="true"
+        android:layout_above="@id/resetPassEditText"/>
+
+    <EditText
+        android:id="@+id/resetPassEditText"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:inputType="textEmailAddress"
+        android:hint="firstname@gmail.com"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:layout_margin="20dp"/>
+
+    <Button
+        android:id="@+id/resetPassButton"
+        android:layout_width="400dp"
+        android:layout_height="70dp"
+        android:text="send reset email"
+        android:textSize="25dp"
+        android:background="@color/transparant"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/resetPassEditText"
+        />
+
+</RelativeLayout>

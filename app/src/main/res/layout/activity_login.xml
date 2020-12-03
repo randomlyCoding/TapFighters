@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:background="@drawable/gradle_background"
+    tools:context=".LoginActivity">
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:hint="username"
+        android:inputType="textPassword"
+        android:selectAllOnFocus="true"
+        android:textSize="30dp"
+        android:gravity="center"
+        />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:hint="password"
+        android:selectAllOnFocus="true"
+        android:gravity="center"
+        />
+
+    <Switch
+        android:id="@+id/saveInfoSwitch"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:text="save my info?"
+        android:textSize="20dp"
+        android:gravity="end" />
+
+    <Button
+        android:id="@+id/buttonLogin"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:background="@color/transparant"
+        android:text="login"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="dont have an account, "/>
+        <TextView
+            android:id="@+id/signup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#0645AD"
+            android:text="sign up?"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="dont remember your password?, "/>
+        <TextView
+            android:id="@+id/resetPass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#0645AD"
+            android:text="reset pass"/>
+
+    </LinearLayout>
+
+</LinearLayout>

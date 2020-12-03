@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/popup_design">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+        <TextView
+            android:id="@+id/SFX_perc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"
+            android:text="SFX volume:       100%"/>
+
+        <ImageView
+            android:id="@+id/SFXSoundBtn100"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/optionsbuttonon" />
+
+        <ImageView
+            android:id="@+id/SFXSoundBtn90"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/optionsbuttonon" />
+
+        <ImageView
+            android:id="@+id/SFXSoundBtn80"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/optionsbuttonon" />
+
+        <ImageView
+            android:id="@+id/SFXSoundBtn70"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/optionsbuttonon" />
+
+        <ImageView
+            android:id="@+id/SFXSoundBtn60"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/optionsbuttonon" />
+
+        <ImageView
+            android:id="@+id/SFXSoundBtn50"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/optionsbuttonon" />
+
+        <ImageView
+            android:id="@+id/SFXSoundBtn40"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/optionsbuttonon" />
+
+        <ImageView
+            android:id="@+id/SFXSoundBtn30"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/optionsbuttonon" />
+
+        <ImageView
+            android:id="@+id/SFXSoundBtn20"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/optionsbuttonon" />
+
+        <ImageView
+            android:id="@+id/SFXSoundBtn10"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/optionsbuttonon" />
+
+        <ImageView
+            android:id="@+id/SFXSoundBtn0"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/optionsbuttonon" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+        <TextView
+            android:id="@+id/VOICE_perc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"
+            android:text="Voice volume:    100%"/>
+
+        <ImageView
+            android:id="@+id/VOICESoundBtn100"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/optionsbuttonon" />
+
+        <ImageView
+            android:id="@+id/VOICESoundBtn90"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/optionsbuttonon" />
+
+        <ImageView
+            android:id="@+id/VOICESoundBtn80"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/optionsbuttonon" />
+
+        <ImageView
+            android:id="@+id/VOICESoundBtn70"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/optionsbuttonon" />
+
+        <ImageView
+            android:id="@+id/VOICESoundBtn60"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/optionsbuttonon" />
+
+        <ImageView
+            android:id="@+id/VOICESoundBtn50"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/optionsbuttonon" />
+
+        <ImageView
+            android:id="@+id/VOICESoundBtn40"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/optionsbuttonon" />
+
+        <ImageView
+            android:id="@+id/VOICESoundBtn30"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/optionsbuttonon" />
+
+        <ImageView
+            android:id="@+id/VOICESoundBtn20"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/optionsbuttonon" />
+
+        <ImageView
+            android:id="@+id/VOICESoundBtn10"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/optionsbuttonon" />
+
+        <ImageView
+            android:id="@+id/VOICESoundBtn0"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/optionsbuttonon" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+        <TextView
+            android:id="@+id/MUSIC_perc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"
+            android:text="Music volume:    100%"/>
+
+        <ImageView
+            android:id="@+id/MUSICSoundBtn100"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/optionsbuttonon" />
+
+        <ImageView
+            android:id="@+id/MUSICSoundBtn90"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/optionsbuttonon" />
+
+        <ImageView
+            android:id="@+id/MUSICSoundBtn80"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/optionsbuttonon" />
+
+        <ImageView
+            android:id="@+id/MUSICSoundBtn70"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/optionsbuttonon" />
+
+        <ImageView
+            android:id="@+id/MUSICSoundBtn60"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/optionsbuttonon" />
+
+        <ImageView
+            android:id="@+id/MUSICSoundBtn50"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/optionsbuttonon" />
+
+        <ImageView
+            android:id="@+id/MUSICSoundBtn40"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/optionsbuttonon" />
+
+        <ImageView
+            android:id="@+id/MUSICSoundBtn30"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/optionsbuttonon" />
+
+        <ImageView
+            android:id="@+id/MUSICSoundBtn20"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/optionsbuttonon" />
+
+        <ImageView
+            android:id="@+id/MUSICSoundBtn10"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/optionsbuttonon" />
+
+        <ImageView
+            android:id="@+id/MUSICSoundBtn0"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/optionsbuttonon" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/ReturnSoundBnt"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:text="Close"
+        android:textColor="#FFFFFF"
+        android:background="#00FFFFFF"/>
+
+
+</LinearLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainMenuActivity">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/backgroundmainmenu" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/layout"
+        android:layout_centerInParent="true"
+        android:layout_margin="10dp"
+        android:text="Tap Fighters"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        android:textColor="@color/mainMenuTextColor" />
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true">
+    <TextView
+        android:id="@+id/onlinePlay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:text="Play Online"
+        android:textSize="50sp"
+        android:textColor="@color/mainMenuTextColor" />
+
+    <TextView
+        android:id="@+id/offlinePlay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/onlinePlay"
+        android:gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:text="Play Offline"
+        android:textSize="50sp"
+        android:textColor="@color/mainMenuTextColor" />
+</LinearLayout>
+    <TextView
+        android:id="@+id/charShow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layout"
+        android:gravity="center_horizontal"
+        android:layout_centerInParent="true"
+        android:text="characters"
+        android:textSize="50sp"
+        android:textColor="@color/mainMenuTextColor" />
+    <ImageView
+        android:id="@+id/options"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/options"
+        android:layout_alignParentRight="true"/>
+
+</RelativeLayout>
